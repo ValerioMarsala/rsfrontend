@@ -15,6 +15,7 @@ function App() {
             <Route exact path="/" element={""} />
             <Route path="/employees" element={<ListEmployeeComponent />} />
             <Route path="/add-employee" element={<AddEmployee />} />
+            <Route path="/edit-employee/:id" element={<AddEmployee />} />
           </Routes>
         </div>
         <Footer />
