@@ -20,10 +20,12 @@ const ListEmployeeComponent = () => {
       <h2 className="text-center">List Employees</h2>
       <table className="table table-bordered table-striped">
         <thead>
-          <th>Employee Id</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Email</th>
+          <tr>
+            <th>Employee Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+          </tr>
         </thead>
         <tbody>
           {employees.map((employee) => (
